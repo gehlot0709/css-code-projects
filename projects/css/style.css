@@ -628,3 +628,48 @@ left: 124px;
   color: gray;
   margin-left: 16px;
 }
+
+/* ===footer=== */
+footer .container{
+  background-color: rgb(3, 3, 66);
+  margin-bottom: 96px;
+}
+footer .container .company-details1{
+  padding-top: 96px;
+}
+footer .container h3{
+  color: orange;
+  font-size: 28px;
+  margin-bottom: 14px;
+  font-family: "Pacifico", cursive;
+}
+footer .container a,p{
+  display: block;
+  color: white;
+ margin: 8px;
+}
+footer .company-details1 .company-info ul li i{
+border: 1px solid white;
+padding: 8px;
+border-radius: 50%;
+color: white;
+}
+
+/* company-details2 */
+.company-details2{
+  margin-top: 22px;
+  padding-top: 22px;
+  position: relative;
+}
+
+
+.company-details2::after{
+  content: "";
+  position: absolute;
+  width: 1300px;
+  height: 0.5px;
+  background-color: gray;
+  top: 2px;
+  left: 4px;
+  
+}

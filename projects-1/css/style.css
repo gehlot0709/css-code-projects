@@ -63,6 +63,10 @@ ol {
 .d-flex {
   display: flex;
 }
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
 .flex-wrap{
   flex-wrap: wrap;
 }
@@ -157,7 +161,7 @@ nav ul li:nth-child(5):hover .nav-dropdowm{
 /* ==main== */
 
 main .container{
-  background: linear-gradient(90deg, rgba(2,0,36,0.7120098039215687) 100%, rgba(0,0,0,0.5859593837535014) 100%, rgba(0,0,0,0.2666316526610645) 100%),url(../img/image.png);
+  background: linear-gradient(90deg, rgba(249, 249, 253, 0.712) 100%, rgba(134, 123, 123, 0.586) 100%, rgba(107, 100, 100, 0.267) 100%),url(../img/image.png);
   padding-top: 96px;
   padding-bottom: 96px;
   background-repeat: no-repeat;
